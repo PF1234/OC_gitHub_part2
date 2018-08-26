@@ -1,4 +1,6 @@
 // Javascript OC autoformation.
+//	Version	Comment
+//	#1	Modification de la taille de Médor ! 
 
 var Chien = {
     // initialise le chien
@@ -26,7 +28,7 @@ var chien3 = Object.create(Chien);
 
 chien1.init ("crokdur","matin de Naples", 75);
 chien2.init ("Pupuce","Bichon", 22);
-chien3.init ("Médor","Labrador", 58);
+chien3.init ("Médor","Labrador", 18); // #1 Modification de la taille ...
 
 chenil.push (chien1);
 chenil.push (chien2);
