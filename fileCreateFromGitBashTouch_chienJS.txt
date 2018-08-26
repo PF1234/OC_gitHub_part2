@@ -1,0 +1,38 @@
+// Javascript OC autoformation.
+
+var Chien = {
+    // initialise le chien
+    init: function (nom, race, taille) {
+        this.nom = nom;
+        this.race = race;
+        this.taille = taille;
+    },
+    // Renvoie l'aboiement du chien
+    aboyer: function () {
+        var aboiement = "Whoua ! Whoua !";
+        if (this.taille < 25) {
+            aboiement = "Kaii ! Kaii !";
+        } else if (this.taille > 60) {
+            aboiement = "Grrr ! Grrr !";
+        }
+        return aboiement;
+    }
+};
+
+var chenil = [];
+var chien1 = Object.create(Chien);
+var chien2 = Object.create(Chien);
+var chien3 = Object.create(Chien);
+
+chien1.init ("crokdur","matin de Naples", 75);
+chien2.init ("Pupuce","Bichon", 22);
+chien3.init ("Médor","Labrador", 58);
+
+chenil.push (chien1);
+chenil.push (chien2);
+chenil.push (chien3);
+
+chenil.forEach (function (ch) {
+    var aboiement = ch.aboyer();
+    console.log (ch.nom + " est un "+ch.race+" mesurant "+ch.taille+"cm. Il aboie : " + aboiement);
+});

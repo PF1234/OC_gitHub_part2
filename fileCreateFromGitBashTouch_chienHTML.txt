@@ -1,0 +1,12 @@
+<!doctype html>
+<htlm>
+    <head>
+        <meta charset="utf-8">
+        <title>Objet Javascript</title>
+        <h1>Developpement javascript Objet</h1>
+    </head>
+    
+    <body>
+        <script src="../js/chenil.js"></script>
+    </body>
+</htlm>
