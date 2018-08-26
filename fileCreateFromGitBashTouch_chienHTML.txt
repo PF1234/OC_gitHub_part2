@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <title>Objet Javascript</title>
         <h1>Developpement javascript Objet</h1>
+        <h2>et sauvegarde sur gitHub</h2>
     </head>
     
     <body>
